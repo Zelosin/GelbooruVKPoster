@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.web.WebView?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1350.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zelosin.pack.controllers.MainWindowController">
+   <children>
+      <HBox prefHeight="800.0" prefWidth="1350.0" spacing="3.0">
+         <children>
+            <VBox prefHeight="800.0" prefWidth="516.0">
+               <children>
+                  <ScrollPane id="dContentScroller" fx:id="dScroller" prefHeight="740.0" prefWidth="630.0" styleClass="dContentScroller" stylesheets="@../css/maincss.css">
+                    <content>
+                        <VBox fx:id="dContentScroller" alignment="CENTER" prefHeight="3103.0" prefWidth="470.0">
+                           <children>
+                              <HBox fx:id="dContentRow0" alignment="CENTER" prefHeight="200.0" prefWidth="387.0" spacing="25.0">
+                                 <children>
+                                    <ImageView fx:id="img0" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                    <ImageView fx:id="img1" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                    <ImageView fx:id="img2" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="20.0" />
+                                 </VBox.margin>
+                              </HBox>
+                              <HBox fx:id="dContentRow1" alignment="CENTER" prefHeight="200.0" prefWidth="750.0" spacing="25.0">
+                                 <children>
+                                    <ImageView fx:id="img3" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                    <ImageView fx:id="img4" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                    <ImageView fx:id="img5" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="20.0" />
+                                 </VBox.margin>
+                              </HBox>
+                              <HBox fx:id="dContentRow2" alignment="CENTER" prefHeight="200.0" prefWidth="750.0" spacing="25.0">
+                                 <children>
+                                    <ImageView fx:id="img6" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                    <ImageView fx:id="img7" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                    <ImageView fx:id="img8" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="20.0" />
+                                 </VBox.margin>
+                              </HBox>
+                              <HBox fx:id="dContentRow3" alignment="CENTER" prefHeight="200.0" prefWidth="750.0" spacing="25.0">
+                                 <children>
+                                    <ImageView fx:id="img9" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                    <ImageView fx:id="img10" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                    <ImageView fx:id="img11" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="20.0" />
+                                 </VBox.margin>
+                              </HBox>
+                              <HBox fx:id="dContentRow4" alignment="CENTER" prefHeight="200.0" prefWidth="750.0" spacing="25.0">
+                                 <children>
+                                    <ImageView fx:id="img12" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                    <ImageView fx:id="img13" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                    <ImageView fx:id="img14" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="20.0" />
+                                 </VBox.margin>
+                              </HBox>
+                              <HBox fx:id="dContentRow5" alignment="CENTER" prefHeight="200.0" prefWidth="750.0" spacing="25.0">
+                                 <children>
+                                    <ImageView fx:id="img15" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                    <ImageView fx:id="img16" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                    <ImageView fx:id="img17" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="20.0" />
+                                 </VBox.margin>
+                              </HBox>
+                              <HBox fx:id="dContentRow6" alignment="CENTER" prefHeight="200.0" prefWidth="750.0" spacing="25.0">
+                                 <children>
+                                    <ImageView fx:id="img18" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                    <ImageView fx:id="img19" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                    <ImageView fx:id="img20" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="20.0" />
+                                 </VBox.margin>
+                              </HBox>
+                              <HBox fx:id="dContentRow7" alignment="CENTER" prefHeight="200.0" prefWidth="750.0" spacing="25.0">
+                                 <children>
+                                    <ImageView fx:id="img21" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                    <ImageView fx:id="img22" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                    <ImageView fx:id="img23" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="20.0" />
+                                 </VBox.margin>
+                              </HBox>
+                              <HBox fx:id="dContentRow8" alignment="CENTER" prefHeight="200.0" prefWidth="750.0" spacing="25.0">
+                                 <children>
+                                    <ImageView fx:id="img24" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                    <ImageView fx:id="img25" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                    <ImageView fx:id="img26" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="20.0" />
+                                 </VBox.margin>
+                              </HBox>
+                              <HBox fx:id="dContentRow9" alignment="CENTER" prefHeight="200.0" prefWidth="750.0" spacing="25.0">
+                                 <children>
+                                    <ImageView fx:id="img27" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                    <ImageView fx:id="img28" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                    <ImageView fx:id="img29" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="20.0" />
+                                 </VBox.margin>
+                              </HBox>
+                              <HBox fx:id="dContentRow10" alignment="CENTER" prefHeight="200.0" prefWidth="750.0" spacing="25.0">
+                                 <children>
+                                    <ImageView fx:id="img30" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                    <ImageView fx:id="img31" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                    <ImageView fx:id="img32" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="20.0" />
+                                 </VBox.margin>
+                              </HBox>
+                              <HBox fx:id="dContentRow11" alignment="CENTER" prefHeight="200.0" prefWidth="750.0" spacing="25.0">
+                                 <children>
+                                    <ImageView fx:id="img33" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                    <ImageView fx:id="img34" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                    <ImageView fx:id="img35" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="20.0" />
+                                 </VBox.margin>
+                              </HBox>
+                              <HBox fx:id="dContentRow12" alignment="CENTER" prefHeight="200.0" prefWidth="750.0" spacing="25.0">
+                                 <children>
+                                    <ImageView fx:id="img36" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                    <ImageView fx:id="img37" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                    <ImageView fx:id="img38" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="20.0" />
+                                 </VBox.margin>
+                              </HBox>
+                              <HBox fx:id="dContentRow13" alignment="CENTER" prefHeight="200.0" prefWidth="750.0" spacing="25.0">
+                                 <children>
+                                    <ImageView fx:id="img39" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                    <ImageView fx:id="img40" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                    <ImageView fx:id="img41" fitHeight="150.0" fitWidth="150.0" onMouseReleased="#onActionSelectPicture" pickOnBounds="true" preserveRatio="true" styleClass="img" />
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="20.0" />
+                                 </VBox.margin>
+                              </HBox>
+                           </children>
+                        </VBox>
+                    </content>
+                  </ScrollPane>
+                  <HBox alignment="CENTER" prefHeight="60.0" prefWidth="662.0" spacing="50.0">
+                     <children>
+                        <ImageView fx:id="dPrevButton" fitHeight="50.0" fitWidth="50.0" onMouseReleased="#onActionScrollPrev" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/prev_button.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="dCurPageLabel">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                        <ImageView fitHeight="50.0" fitWidth="50.0" onMouseReleased="#onActionScrollNext" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../images/next_button.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </HBox>
+               </children>
+            </VBox>
+            <VBox prefHeight="800.0" prefWidth="830.0">
+               <children>
+                  <ImageView fx:id="dFullImage" fitHeight="1.0" fitWidth="6.0" pickOnBounds="true" preserveRatio="true" />
+                  <WebView fx:id="dWebImageView" prefHeight="500.0" prefWidth="830.0" />
+                  <HBox alignment="CENTER" prefHeight="31.0" prefWidth="830.0">
+                     <children>
+                        <Label fx:id="dAlertLabel" textFill="RED">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER" prefHeight="33.0" prefWidth="650.0" spacing="50.0">
+                     <children>
+                        <Hyperlink fx:id="dLinkOpenPost" onAction="#onActionOpenPost" text="Открыть пост">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Hyperlink>
+                        <Hyperlink fx:id="dLinkOpenOrg" onAction="#onActionOpenOrg" text="Открыть оригинал">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Hyperlink>
+                     </children>
+                  </HBox>
+                  <Label text="Теги: ">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="10.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <AnchorPane disable="true" prefHeight="241.0" prefWidth="218.0" visible="false">
+         <children>
+            <VBox prefHeight="200.0" prefWidth="100.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <VBox alignment="CENTER">
+                     <children>
+                        <HBox prefHeight="40.0" prefWidth="200.0">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="25.0" prefWidth="120.0" text="Токен">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <JFXTextArea fx:id="dToken" focusColor="#7c3fa8" maxHeight="25.0" prefHeight="25.0" prefWidth="450.0" stylesheets="@../css/maincss.css">
+                                 <font>
+                                    <Font size="10.0" />
+                                 </font>
+                              </JFXTextArea>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="40.0" prefWidth="200.0">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="45.0" prefWidth="120.0" text="Версия API">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <JFXTextArea fx:id="dAPIVer" focusColor="#7c3fa8" maxHeight="45.0" prefHeight="44.0" prefWidth="175.0" stylesheets="@../css/maincss.css">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets top="5.0" />
+                                 </HBox.margin>
+                              </JFXTextArea>
+                              <Label alignment="CENTER" prefHeight="45.0" prefWidth="100.0" text="ID группы">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <JFXTextArea fx:id="dIDGroup" focusColor="#7c3fa8" maxHeight="44.0" prefColumnCount="45" prefHeight="44.0" prefWidth="175.0" stylesheets="@../css/maincss.css">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets top="5.0" />
+                                 </HBox.margin>
+                              </JFXTextArea>
+                           </children>
+                        </HBox>
+                        <HBox prefHeight="40.0" prefWidth="200.0">
+                           <children>
+                              <Label alignment="CENTER" prefHeight="45.0" prefWidth="120.0" text="ID приложения">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <JFXTextArea fx:id="dIDApp" focusColor="#7c3fa8" maxHeight="45.0" prefHeight="44.0" prefWidth="175.0" stylesheets="@../css/maincss.css">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets top="5.0" />
+                                 </HBox.margin>
+                              </JFXTextArea>
+                              <Label alignment="CENTER" prefHeight="45.0" prefWidth="100.0" text="Owner ID">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <JFXTextArea fx:id="dOwnID" focusColor="#7c3fa8" maxHeight="44.0" prefHeight="44.0" prefWidth="175.0" stylesheets="@../css/maincss.css">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets top="5.0" />
+                                 </HBox.margin>
+                              </JFXTextArea>
+                           </children>
+                        </HBox>
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </VBox>
+                  <HBox alignment="CENTER" prefHeight="35.0" prefWidth="200.0" spacing="40.0">
+                     <children>
+                        <JFXCheckBox checkedColor="#7c3fa8" text="Использовать базовые адреса">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </JFXCheckBox>
+                        <Hyperlink fx:id="dGetTokenLink" style="-fx-text-fill: #7c3fa8;" text="Получить токен">
+                           <font>
+                              <Font size="16.0" />
+                           </font>
+                        </Hyperlink>
+                     </children>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </HBox>
+
+                  <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="104.0" prefWidth="607.0" spacing="20.0">
+                           <children>
+                              <JFXButton fx:id="dActionPostButton" mnemonicParsing="false" onAction="#onActionPost" prefHeight="51.0" prefWidth="121.0" ripplerFill="#7c3fa8" style="-fx-border-color: #7c3fa8;" text="Пост">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </JFXButton>
+                              <Label fx:id="dStatusLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="25.0" prefWidth="599.0" textFill="#7c3fa8">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <padding>
+                              <Insets top="20.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets top="35.0" />
+         </padding>
+      </AnchorPane>
+   </children>
+</Pane>

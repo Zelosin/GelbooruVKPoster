@@ -1,0 +1,11 @@
+.text-area *.text {
+    -fx-text-alignment: center;
+}
+.combo-box{
+    -fx-font-size : 15pt;
+}
+
+#dContentScroller{
+    -fx-background-color:transparent;
+}
+
